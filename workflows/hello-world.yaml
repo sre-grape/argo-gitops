@@ -7,6 +7,7 @@ metadata:
   namespace: argo
 
 spec:
+  serviceAccountName: argo-workflow
   entrypoint: main
 
   templates:
